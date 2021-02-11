@@ -1,4 +1,4 @@
-var mongoose = require('moongoose');
+var mongoose = require('mongoose');
 
 var contactSchema = mongoose.Schema({
   name:{type:String, require:true, unique:true}, //require 필수입력, unique 중복불가
