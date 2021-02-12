@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(methodOverride('_method'));
 
 app.use('/', require('./routes/home'));
-app.use('/posts', required('./routes/posts'));
+app.use('/posts', require('./routes/posts'));
 
 var port = 2021;
 app.listen(port, function(){
