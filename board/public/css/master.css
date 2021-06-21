@@ -9,7 +9,7 @@ body {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; /* 1 */
+  text-overflow: ellipsis; /*제목의 내용이 너무 길면 ... 으로 출력*/
 }
 
 .board-table {
@@ -20,7 +20,7 @@ body {
 }
 
 .post-body{
-  white-space: pre-line; /* 2 */
+  white-space: pre-line; /*게시물 본문의 줄바꿈 처리*/
 }
 .post-info{
   font-size: 0.8em;
